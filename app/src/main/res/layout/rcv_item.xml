@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/item_IMG"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/black">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/item_NAME"
+        android:text="Big_Jeon"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/item_IMG">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_LastChat"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="Why Not???"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:layout_below="@+id/item_NAME"
+        android:layout_toRightOf="@+id/item_IMG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</RelativeLayout>
